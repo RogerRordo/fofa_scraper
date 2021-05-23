@@ -38,7 +38,7 @@ def loadResJson(absResJson: str) -> dict:
         log.warning("Res JSON {} doesn't exists".format(absResJson))
         try:
             with open(absResJson, 'w', encoding='utf-8') as f:
-                pass
+                json.dump({'targets': {}}, f, ensure_ascii=False, indent=4)
         except Exception as e:
             log.error("Can't create hosts {}".format(absResJson))
             sys.exit(e)
