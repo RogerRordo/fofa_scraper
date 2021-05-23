@@ -1,0 +1,28 @@
+{
+    "targets": {
+        "http://222.180.209.254:8000": {
+            "lastTime": "2021-05-01 00:44:50",
+            "vulnerable": true,
+            "info": {
+                "user": "admin",
+                "pass": "admin"
+            }
+        },
+        "http://171.41.207.251:12345": {
+            "lastTime": "2021-05-01 00:35:21",
+            "vulnerable": false,
+            "info": {
+                "user": "",
+                "pass": ""
+            }
+        },
+        "http://219.154.101.113:8888": {
+            "lastTime": "2021-05-01 00:03:22",
+            "vulnerable": false,
+            "info": {
+                "user": "",
+                "pass": ""
+            }
+        }
+    }
+}
